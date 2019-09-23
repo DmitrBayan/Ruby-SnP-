@@ -6,7 +6,7 @@ def count_words(string)
     myString.count(word)
     hash.merge!(Hash[word, myString.count(word)])
   end
-  return puts("#{hash}")
+  return hash
 
 end
 
