@@ -7,7 +7,7 @@ def coincidence(array=nil, range=nil)
       end
     end
   end
-  puts ("#{newArray}")
+  return newArray
 end
 
 coincidence([1, 2, 3, 4, 5], (3..5))  # => [3, 4, 5]
