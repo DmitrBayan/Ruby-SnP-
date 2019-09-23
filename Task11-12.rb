@@ -30,7 +30,7 @@ class Dessert
         return false
       end
     end
-    return puts "Not enough information"
+    "Not enough information"
   end
 
   def delicious?
