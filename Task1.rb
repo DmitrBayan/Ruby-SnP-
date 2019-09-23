@@ -2,10 +2,10 @@ def isPalindrome?(string=nil)
     string.to_s.downcase! #перевод в нижний регистр
 
     if string.to_s.empty? #проверка на пустоту
-        return puts("false")
+        return false
     else
         string.to_s.gsub!(/\W/,"")  #удаление всего, кроме латиницы или цифры
-        return puts(string.to_s.reverse == string.to_s)  #сравнение строки с обратной
+        return string.to_s.reverse == string.to_s #сравнение строки с обратной
     end
 end
 
