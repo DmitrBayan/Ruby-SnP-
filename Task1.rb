@@ -5,7 +5,7 @@ def isPalindrome?(string=nil)
         return false
     else
         string.to_s.gsub!(/\W/,"")  #удаление всего, кроме латиницы или цифры
-        return string.to_s.reverse == string.to_s #сравнение строки с обратной
+        string.to_s.reverse == string.to_s #сравнение строки с обратной
     end
 end
 
